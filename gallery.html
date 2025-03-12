@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #ddd;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ddd;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>Portofolio</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Gallery</h1>
+    <div class="gallery">
+        <img src="https://tif.uad.ac.id/wp-content/uploads/security.jpg" alt="Gambar 1">
+        <img src="https://www.beritainspiratif.com/assets/uploads/2021/09/11mfbam8dn7vw_mid.jpg" alt="Gambar 2">
+        <img src="https://universitasmulia.ac.id/wp-content/uploads/2021/05/ilustrasi-informatics-1030x579.jpg" alt="Gambar 3">
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Tegar Damopolii
+</footer>
+
+</body>
+</html>
